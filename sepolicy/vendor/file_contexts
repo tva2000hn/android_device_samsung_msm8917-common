@@ -119,6 +119,7 @@
 /(vendor|system/vendor)/bin/vendor\.samsung\.security\.sem@1\.0-service                            u:object_r:hal_sem_default_exec:s0
 /(vendor|system/vendor)/bin/vendor\.samsung\.security\.skpm@1\.0-service                           u:object_r:hal_skpm_default_exec:s0
 /(vendor|system/vendor)/bin/vendor\.samsung\.security\.wvkprov_server@1\.0-service                 u:object_r:hal_wvkprov_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.0-service\.samsung-qcom             u:object_r:hal_lineage_livedisplay_sysfs_exec:s0
 
 # Rootfs
 /firmware(/.*)?    u:object_r:firmware_file:s0
